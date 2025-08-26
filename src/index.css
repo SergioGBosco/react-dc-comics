@@ -24,6 +24,10 @@ body {
   width: 20%;
 }
 
+.col-30 {
+  width: 30%;
+}
+
 .col-80 {
   width: 80%;
 }
@@ -69,7 +73,20 @@ main {
 
 /* footer */
 .banner {
-  background-color: aqua;
+  background-color: #0282F9;
+  padding: 50px 0;
+}
+
+.icons-list span {
+  color: white;
+  text-transform: uppercase;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+
+.icons-list img {
+  height: 50px;
+  vertical-align: middle;
 }
 
 .top-footer {
@@ -83,12 +100,14 @@ main {
 }
 
 .icons-list {
-  height: 100px;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 
 
 
-
 /* Utility */
+.align-middle {
+  vertical-align: middle;
+}
