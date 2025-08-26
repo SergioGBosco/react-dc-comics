@@ -28,6 +28,10 @@ body {
   width: 80%;
 }
 
+.col-100 {
+  width: 100%;
+}
+
 /* Header */
 
 header {
@@ -61,5 +65,30 @@ main {
   color: white;
   padding: 15px 0;
 }
+
+
+/* footer */
+.banner {
+  background-color: aqua;
+}
+
+.top-footer {
+  background-color: black;
+  height: 300px;
+}
+
+.bottom-footer {
+  background-color: grey;
+  height: 150px;
+}
+
+.icons-list {
+  height: 100px;
+  text-align: center;
+}
+
+
+
+
 
 /* Utility */
