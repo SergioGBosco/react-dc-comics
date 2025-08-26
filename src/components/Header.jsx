@@ -5,25 +5,25 @@ const Header = () => {
     <header>
       <div className="container">
         <div className="row">
-          <div className="col-25">
+          <div className="col-20">
             <div className="logo">
               <img src="../../public/img/dc-logo.png" alt="" />
             </div>
           </div>
-          <div className="col-50">
+          <div className="col-80">
             <ul id="menu">
               <li>
                 <a href="#">Characters</a>
               </li>
-              <li><a href="#"></a>Comics</li>
-              <li><a href="#"></a>Movies</li>
-              <li><a href="#"></a>TV</li>
-              <li><a href="#"></a>GAmes</li>
-              <li><a href="#"></a>collectibles</li>
-              <li><a href="#"></a>videos</li>
-              <li><a href="#"></a>fans</li>
-              <li><a href="#"></a>news</li>
-              <li><a href="#"></a>shop</li>
+              <li><a href="#" className='active'>Comics</a></li>
+              <li><a href="#">Movies</a></li>
+              <li><a href="#">TV</a></li>
+              <li><a href="#">GAmes</a></li>
+              <li><a href="#">collectibles</a></li>
+              <li><a href="#">videos</a></li>
+              <li><a href="#">fans</a></li>
+              <li><a href="#">news</a></li>
+              <li><a href="#">shop</a></li>
             </ul>
           </div>
         </div>

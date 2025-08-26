@@ -2,9 +2,15 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div>
-      main content
-    </div>
+    <main>
+      <div className="container">
+        <div className="row">
+          <div className="col-100">
+            --- CONTENT GOES HERE ---
+          </div>
+        </div>
+      </div>
+    </main>
   )
 }
 
