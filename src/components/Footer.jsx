@@ -36,11 +36,76 @@ const Footer = () => {
       <div className="top-footer">
         <div className="container">
           <div className="row">
-            <div className="col-30"></div>
+            <div className="col-30">
+              <ul>
+                <li><h4>DC COMICS</h4></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>#
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+              </ul>
+              <ul>
+                <li>
+                  <h4>SHOP</h4>
+                </li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+              </ul>
+              <ul>
+                <li>
+                  <h4>DC</h4>
+                </li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+              </ul>
+              <ul>
+                <li>
+                  <h4>SITES</h4>
+                </li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+                <li><a href="#">sites comics</a></li>
+              </ul>
+            </div>
+            <div className="col-70"></div>
           </div>
         </div>
       </div>
-      <div className="bottom-footer"></div>
+      <div className="bottom-footer">
+        <div className="container">
+          <div className="row space-between ">
+            <div className="col-50">
+              <a href="#" className="sign-up">
+                sign-up now!
+              </a>
+            </div>
+            <div className="col-50">
+              <ul>
+                <li><a href="#">follow us</a></li>
+                <li><img src="../../public/img/footer-facebook.png" alt="" /></li>
+                <li><img src="../../public/img/footer-twitter.png" alt="" /></li>
+                <li><img src="../../public/img/footer-youtube.png" alt="" /></li>
+                <li><img src="../../public/img/footer-pinterest.png" alt="" /></li>
+                <li><img src="../../public/img/footer-periscope.png" alt="" /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   )
 }

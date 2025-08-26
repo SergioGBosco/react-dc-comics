@@ -67,7 +67,7 @@ header {
 main {
   background-color: black;
   color: white;
-  padding: 15px 0;
+  padding: 50px 0;
 }
 
 
@@ -90,13 +90,12 @@ main {
 }
 
 .top-footer {
-  background-color: black;
+  background-image: url(../public/img/footer-bg.jpg);
   height: 300px;
 }
 
 .bottom-footer {
-  background-color: grey;
-  height: 150px;
+  background-color: #303030;
 }
 
 .icons-list {
@@ -104,10 +103,74 @@ main {
   justify-content: space-around;
 }
 
+/* TOP Footer */
 
+.top-footer {
+  padding: 30px;
+}
+
+.top-footer .col-30 {
+  display: flex;
+}
+
+
+
+.top-footer li h4 {
+  color: white;
+}
+
+.top-footer li {
+  list-style-type: none;
+}
+
+.top-footer li a {
+  font-size: 14px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+}
+
+/* Bottom Footer */
+.bottom-footer {
+  padding: 30px 0;
+}
+
+.sign-up {
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  border: 2px solid #0282F9;
+}
+
+.bottom-footer ul {
+  display: flex;
+}
+
+.bottom-footer ul li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0 6px;
+}
+
+.bottom-footer ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #0282F9;
+  font-weight: 700;
+}
+
+.bottom-footer ul li img {
+  vertical-align: middle;
+}
 
 
 /* Utility */
 .align-middle {
   vertical-align: middle;
+}
+
+.space-between {
+  justify-content: space-between;
 }
