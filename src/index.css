@@ -24,6 +24,10 @@ body {
   width: 20%;
 }
 
+.col-25 {
+  width: 25%;
+}
+
 .col-30 {
   width: 30%;
 }
@@ -173,4 +177,17 @@ main {
 
 .space-between {
   justify-content: space-between;
+}
+
+
+/* Sezione Card */
+
+.comic-card {
+  width: 100%;
+  padding: 10px;
+}
+
+.comic-card img {
+  width: 100%;
+  height: 250px;
 }

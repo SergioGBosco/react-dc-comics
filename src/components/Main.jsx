@@ -1,12 +1,11 @@
-import React from 'react'
-
+import ComicsList from "./ComicsList"
 const Main = () => {
   return (
     <main>
       <div className="container">
         <div className="row">
           <div className="col-100">
-            --- CONTENT GOES HERE ---
+            <ComicsList />
           </div>
         </div>
       </div>

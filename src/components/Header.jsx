@@ -7,7 +7,7 @@ const Header = () => {
         <div className="row">
           <div className="col-20">
             <div className="logo">
-              <img src="../../public/img/dc-logo.png" alt="" />
+              <img src="../../img/dc-logo.png" alt="" />
             </div>
           </div>
           <div className="col-80">
