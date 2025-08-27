@@ -79,14 +79,24 @@ main {
 
 .currentseries {
   height: 400px;
+  width: 100%;
   background-image: url(../public/img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content {
   padding: 30px 0;
 }
 
-.button
+.button {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #0282F9;
+  font-weight: 700;
+  position: absolute;
+  top: -50px;
+}
 
 /* footer */
 .banner {
@@ -194,6 +204,9 @@ main {
   justify-content: space-between;
 }
 
+.relative {
+  position: relative;
+}
 
 /* Sezione Card */
 
