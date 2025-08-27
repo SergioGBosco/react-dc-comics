@@ -81,7 +81,7 @@ const Footer = () => {
                 <li><a href="#">sites comics</a></li>
               </ul>
             </div>
-            <div className="col-70"></div>
+            <div className="col-70 backimg"></div>
           </div>
         </div>
       </div>

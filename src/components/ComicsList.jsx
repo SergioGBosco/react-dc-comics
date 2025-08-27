@@ -154,24 +154,24 @@ const ComicsList = () => {
       writers: ["Joëlle Jones"],
     },
   ];
-  return <div className="container">
-    <div className="row">
-      {comics.map(comic => {
-        return (
-          <div className="col-25" key={comic.id}>
-            <div className="comic-card">
-              <img src={comic.thumb} alt={comic.title} />
-              <h3>{comic.title}</h3>
+  return (
+    <div className="container">
+      <div className="row">
+        {comics.map(comic => {
+          return (
+            <div className="col-16" key={comic.id}>
+              <div className="comic-card">
+                <img src={comic.thumb} alt={comic.title} />
+                <h3>{comic.title}</h3>
+              </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
 
 
 
-    </div>
-  </div>
-
+      </div>
+    </div>)
 };
 
 export default ComicsList;
